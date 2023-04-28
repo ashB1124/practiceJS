@@ -53,3 +53,44 @@
 
 //    console.log("Case #" + i + ": " + (a + b));
 // }
+
+
+// 2439 (별 찍기 - 2)
+// let input = require('fs').readFileSync('/dev/stdin').toString().split('\n');
+// let temp = parseInt(input.shift());
+// let answer = "";
+
+// for (let enter = 1; enter <= temp; enter++) {
+//   for (let blank = 0; blank < temp - enter; blank++) {
+//     answer += " ";
+//   }
+//   for (let star = 0; star < enter; star++) {
+//     answer += "*";
+//   }
+//   answer += "\n";
+// }
+
+// console.log(answer);
+
+
+// 10952 (A + B -5)
+// let input = require('fs').readFileSync('/dev/stdin').toString().split('\n');
+// let anwer = "";
+
+// while(input[0] !== "0 0") {
+//    let data = input.shift().split(' ').map(Number);
+//    answer += data[0] + data[1] + "\n";
+// }
+
+// console.log(answer);
+
+// 10951 (A + B - 4)
+// let input = require('fs').readFileSync('/dev/stdin').toString().split('\n');
+// let answer = "";
+
+// for (let i = 0; i < input.length; i++) {
+//    let data = input[i].split(' ').map(Number);
+//    answer += data[0] + data[1] + '\n';
+// }
+
+// console.log(answer);
